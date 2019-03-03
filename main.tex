@@ -1,0 +1,31 @@
+\documentclass{report}
+\usepackage[utf8]{inputenc}
+\usepackage[iso,norwegian]{isodate}
+\usepackage{url}
+\usepackage{todonotes}
+\usepackage{hyperref}
+\bibliography{Referanser/kilder.bib}
+
+
+\title{%
+  Barhefte \\
+  \large Hefte med tips og triks \\
+    som kan være kult å kunne i baren \\
+    og annen alkoholrelatert trivia}
+
+\author{Bjørn K. Aune}
+\begin{document}
+\date{\today}
+\maketitle
+\setcounter{tocdepth}{1}
+\tableofcontents
+
+%\input{Kapitler/introduksjon.tex}
+%\input{Kapitler/Drikketyper.tex}
+%\input{Kapitler/ale.tex}
+\input{Kapitler/Cocktailer/intro.tex}
+\input{Kapitler/Cocktailer/utstyr.tex}
+\input{Kapitler/Cocktailer/mixere.tex}
+\input{Kapitler/Cocktailer/teknikker.tex}
+\input{Kapitler/Cocktailer/drinker.tex}
+\end{document}
